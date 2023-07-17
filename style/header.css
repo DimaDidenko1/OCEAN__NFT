@@ -1,0 +1,48 @@
+.Header {
+  font-family: Orbitron;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 19.898px;
+  font-weight: 700;
+}
+.Header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header__container {
+  max-width: 1414px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 50px;
+  padding-left: 18px;
+}
+
+.header__logo {
+  display: flex;
+}
+.header__logo span {
+  color: #FFFFFF;
+}
+.header__logo img {
+  width: 16.58px;
+  max-height: 26.81px;
+  height: 26.81px;
+}
+
+.header__menu {
+  display: flex;
+  padding-left: 229px;
+  font-style: normal;
+}
+
+.menu__item {
+  display: flex;
+  gap: 66.33px;
+}
+
+.menu__icon {
+  align-items: center;
+  display: flex;
+  padding-left: 488px;
+  gap: 40.9px;
+}/*# sourceMappingURL=header.css.map */
