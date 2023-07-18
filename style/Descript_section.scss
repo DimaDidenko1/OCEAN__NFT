@@ -3,26 +3,36 @@ ol,
 li {
 	list-style: none;
 }
+@font-face {
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Spartan'), url('https://fonts.cdnfonts.com/s/46626/Spartan-SemiBold.woff') format('woff');
+}
 .Description {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    padding-top: 103px;
+    padding-left: 105px;
 }
 .Descript__box__text {
     grid-area: 1 / 1 / 2 / 2;
  }
 .Title {
     display: block;
-
-    max-width: 500px;
-    color: #FFF;
-    font-family: Spartan;
-    font-size: 66.328px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 137.4%;
+    width: 848px;
+    h1{
+        
+        color: #FFF;
+        font-family: Spartan;
+        font-size: 66.328px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 137.4%;
+    }
     span{
         background: linear-gradient(to right, #FF56F6, #43A5E3);
         -webkit-background-clip: text;
@@ -31,17 +41,19 @@ li {
 }
 .Title__text {
     color: #FFF;
+    width: 658px;
     font-family: Rajdhani;
     font-size: 26.531px;
     font-style: normal;
     font-weight: 400;
     line-height: 44.218px;
+    padding-top: 21px;
  }
 
 .button__style {
     gap: 10px;
     display: flex;
-    
+    white-space: nowrap;
     border: 2.2px solid #3C79D4;
     border-image: linear-gradient(35deg, #FFA6FA ,#3C79D4);
     border-radius: 2.2px;
@@ -52,10 +64,10 @@ li {
     align-items: center;
     padding: 7.74px 9.95px 7.74px 9.95px;
     color: #FFF;
-    font-family: Orbitron;
-    font-size: 19.898px;
+    font-family: Rajdhani;
+    font-size: 17.687px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
    span{
         position: relative;
@@ -87,8 +99,10 @@ li {
    }
  }
  .Button__box {
+    padding-top: 41px;
+
     display: flex;
-    gap: 37.59px;
+    gap: 34.59px;
     button:last-child{
         background: none;
         border: none;
@@ -104,15 +118,28 @@ li {
     }
     .button__style{
         clip-path: polygon(20% 0, 80% 0%, 100% 0, 100% 80%, 80% 100%, 0 100%, 0% 80%, 0 20%);
-        padding: 19.9px 30px 18.79px 67.43px;
+        padding: 19.9px 30px 18.79px 63.43px;
+        font-size: 19.898px;
+        font-family: Orbitron;
+        font-size: 19.898px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
         span{
             width: 51.957px;
         };
     }
  }
-.stat { }
+.stat {
+    padding-top: 64px;
+    margin-left: -66px;
+ }
 .stat__cont {
     display: flex;
+    li{
+        margin-bottom: -3px;
+        padding-left: 1px;
+    }
     ul:first-child{
         border-right: 1.1px solid rgba(255, 255, 255, 0.26);
         padding-right: 14.84px;
@@ -123,6 +150,7 @@ li {
     }
     ul:nth-child(2){
         padding-right: 21.48px;
+        padding-left: 40px;
     }
     ul{
         li:first-child{
@@ -148,20 +176,37 @@ li {
  }
 .Descript__box__nft {
     grid-area: 1 / 2 / 2 / 3;
+    display: flex;
+    padding-top: 17px;
+    padding-left: 53px;
+     
  }
 .Img__box {
-    background: url('../img/section1/image\ 62.png') no-repeat;
-    background-size: cover;
+    background: url('../img/section1/image\ 62.png');
     width: 402px;
     height: 477px;
+    position: relative;
+    border-radius: 15px;
+    
  }
 .card {
+    position: absolute;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    background: none;
+    gap: 60px;
+    background-color: #43A5E3;
+    top: 358px;
+    right: -91px;
+    width: 336px;
+    height: 181px;
  }
-.card__descript { }
+.card__descript {
+    .card__text{
+        padding-top: 5px;
+        padding-left: 21px;
+    
+    }
+ }
 .card__title {
     color: #FFF;
     font-family: Rajdhani;
@@ -169,12 +214,15 @@ li {
     font-style: normal;
     font-weight: 700;
     line-height: 35.375px;
+    padding-left: 21px;
+    padding-top: 26px;
+    white-space: nowrap;
  }
 .profile { 
     display: flex;
     align-items: center;
     gap: 3.32px;
-
+    padding-left: 20px;
 }
 .profile__logo {
     border-radius: 50%;
@@ -201,12 +249,15 @@ li {
     font-style: normal;
     font-weight: 600;
     line-height: 35.375px;
-    opacity: 0.69
+    opacity: 0.69;
+    
  }
 .price {
     display: flex;
     align-items: center;
     gap: 5.53px;
+    margin-top: -12px;
+    padding-left: 17px;
     p{
         color: #FFF;
         font-family: Orbitron;
@@ -224,13 +275,32 @@ li {
         line-height: 35.375px;
         opacity: 0.69;
     }
+    
 }
 .card__timer {
-    
+    .card__text:first-child{
+        
+            padding-top: 26px;
+            margin-left: -7px;
+    }
+    .card__text:last-child{
+        
+        margin-top: -19px;
+        margin-left: -1px;    
+    }   
+    .button__style{
+        margin-left: -15px;
+        margin-top: 18px;
+        span{
+            width: 24.32px;
+        };
+    }
  }
 .box__timer {
     display: flex;
     gap: 17.69px;
+    margin-top: -11px;
+    margin-left: -6px;
     .card__text{
         font-weight: 500;
     }
@@ -243,7 +313,40 @@ li {
     font-weight: 600;
     line-height: 35.375px;
  }
+ #Mins{
+    margin-left: -2px;
+ }
+ #Secs{
+    margin-left: 3px;
+ }
 .Descript__box__partners {
     grid-area: 2 / 1 / 3 / 3;
+    display: flex;
+    gap: 135.76px;
+    padding-top: 111px;
+    
  }
-.partners__img { }
+.partners__img {
+    &:nth-child(1){
+        background: url('../img/section1/Binance_logo\ logo.png');
+        width: 265.31px;
+        height: 53.062px;
+    }
+    &:nth-child(2){
+        background: url('../img/section1/Ethereum\ logo.png');
+        width: 170.241px;
+        height: 53.062px;
+    }
+    &:nth-child(3){
+        background: url('../img/section1/Logo_of_Blockchain.io\ logo.png');
+        width: 349.325px;
+        height: 53.062px;
+    }
+    &:nth-child(4){
+        background: url('../img/section1/bitmex\ 1.png') no-repeat;
+        width: 196.398px;
+        height: 31.369px;
+        margin-top: 20px;
+    }
+   
+ }
