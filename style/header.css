@@ -1,48 +1,72 @@
-.Header {
-  font-family: Orbitron;
+@media (min-width: 992px) {
+  .container-fluid {
+    max-width: 1414px;
+    padding-left: 20px;
+    margin-top: 41px;
+    gap: 212px;
+  }
+}
+
+.navbar-brand {
+  display: flex;
   color: rgba(255, 255, 255, 0.6);
+  font-family: Orbitron;
   font-size: 19.898px;
+  font-style: normal;
   font-weight: 700;
+  line-height: normal;
 }
-.Header a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.header__container {
-  max-width: 1414px;
-  margin: 0 auto;
-  display: flex;
-  padding-top: 50px;
-  padding-left: 18px;
-}
-
-.header__logo {
-  display: flex;
-}
-.header__logo span {
+.navbar-brand span:last-child {
   color: #FFFFFF;
 }
-.header__logo img {
-  width: 16.58px;
-  max-height: 26.81px;
-  height: 26.81px;
+.navbar-brand:hover {
+  color: #FFFFFF;
 }
 
-.header__menu {
-  display: flex;
-  padding-left: 229px;
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../img/header/burger.png");
+  background-size: cover;
+  width: 21.714px;
+  height: 19.644px;
+  flex-shrink: 0;
+}
+
+.navbar-collapse {
+  gap: 487px;
+}
+@media (max-width: 1599.8px) {
+  .navbar-collapse {
+    gap: 70px;
+  }
+}
+
+.navbar-nav {
+  justify-content: center;
+}
+.navbar-nav a {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Orbitron;
+  font-size: 19.898px;
   font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
 }
-
-.menu__item {
-  display: flex;
+.navbar-nav a:hover {
+  color: #FFFFFF;
+}
+.navbar-nav:first-child {
   gap: 66.33px;
 }
-
-.menu__icon {
-  align-items: center;
-  display: flex;
-  padding-left: 488px;
+.navbar-nav:last-child {
   gap: 40.9px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=header.css.map */

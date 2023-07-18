@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Alethia Next';
+    src: url('AlethiaNext-Light.eot');
+    src: local('Alethia Next Light'), local('AlethiaNext-Light'),
+        url('AlethiaNext-Light.eot?#iefix') format('embedded-opentype'),
+        url('AlethiaNext-Light.woff2') format('woff2'),
+        url('AlethiaNext-Light.woff') format('woff'),
+        url('AlethiaNext-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alethia Next';
+    src: url('AlethiaNext-LightItalic.eot');
+    src: local('Alethia Next Light Italic'), local('AlethiaNext-LightItalic'),
+        url('AlethiaNext-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('AlethiaNext-LightItalic.woff2') format('woff2'),
+        url('AlethiaNext-LightItalic.woff') format('woff'),
+        url('AlethiaNext-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+

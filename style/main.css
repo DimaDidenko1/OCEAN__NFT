@@ -73,7 +73,6 @@ select {
   }
 }
 body {
-  background: no-repeat;
-  background: url("../img/bg.png");
+  background: url("../img/bg.png") no-repeat;
   background-size: cover;
 }/*# sourceMappingURL=main.css.map */
