@@ -40,7 +40,7 @@ function timerInPage() {
   }
 }
 
-// setInterval(timerInPage, 1000);
+setInterval(timerInPage, 1000);
 
 
 

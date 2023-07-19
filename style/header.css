@@ -6,6 +6,12 @@
     gap: 212px;
   }
 }
+@media (max-width: 992px) {
+  .container-fluid .container-fluid {
+    padding-top: 1;
+    padding-left: 1;
+  }
+}
 
 .navbar-brand {
   display: flex;
@@ -69,4 +75,23 @@
 .nav-item {
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 992px) {
+  .navbar-toggler {
+    padding-right: 17px;
+    margin-top: -8px;
+  }
+  .container-fluid {
+    padding-left: 24px;
+    padding-top: 13px;
+  }
+  span {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Orbitron;
+    font-size: 16.128px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
 }/*# sourceMappingURL=header.css.map */
