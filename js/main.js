@@ -9,8 +9,23 @@ let isBurgerMenuOpen = false;
 const swiper = new Swiper('.swiper', {
   // Optional parameters
   
-  loop: true,
-  slidesPerView: 3,
+  
+  freemode: true,
+  breakpoints: {
+    320: {
+      slidesPerView: 1.2,
+      
+    },
+    992: {
+      slidesPerView: 2,
+      
+    },
+    1600: {
+      slidesPerView: 3, // Отображаем по 3 слайда при ширине 1400 пикселей
+      
+    },
+  },
+  
   
 
   // If we need pagination

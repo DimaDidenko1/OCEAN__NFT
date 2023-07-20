@@ -6,13 +6,18 @@
 
  }
 .swiper {
-    width: 1394px;
+    
+    width: auto;
     position: relative;
     
     
  }
-.swiper-wrapper { }
+.swiper-wrapper {
+    
+ }
 .swiper-slide {
+    display: flex;
+    justify-content: center;
     &:first-child{
         margin-left: 6px;
         #Mins{
@@ -75,6 +80,14 @@
             font-style: normal;
             font-weight: 700;
             line-height: normal;
+            @media (max-width: 992px) {
+                color: #FFF;
+                font-family: Orbitron;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
         }
         a{
             display: flex;
@@ -87,6 +100,9 @@
             align-items: center;
             text-decoration: none;
             gap: 26.58px;
+            @media (max-width:992px) {
+                display: none;
+            }
         }
         span{
             display: flex;
@@ -129,11 +145,19 @@
     background-size: cover;
     width: 437px;
     height: 384px;
+    @media (max-width: 991.98px) {
+        width: 303.971px;
+        height: 267.126px;
+    }
  }
 .cardNFT {
     
     width: 437.762px;
     height: 236.161px;
+    @media (max-width: 991.98px) {
+        width: 303.971px;
+        height: 163.985px;
+    }
     display: flex;
     gap: 25px;
     fill: linear-gradient(90deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.02) 100%);
