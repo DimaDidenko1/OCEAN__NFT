@@ -1,0 +1,234 @@
+.swiper {
+  width: 1394px;
+  position: relative;
+}
+
+.swiper-slide:first-child {
+  margin-left: 6px;
+}
+.swiper-slide:first-child #Mins {
+  margin-left: -6px;
+}
+.swiper-slide:first-child #Secs {
+  margin-left: -4px;
+}
+.swiper-slide:first-child .button__style {
+  margin-left: -2px;
+}
+.swiper-slide:nth-child(2) {
+  margin-left: 7px;
+}
+.swiper-slide:nth-child(2) .box__timer {
+  padding-left: 9px;
+}
+.swiper-slide:nth-child(2) #Mins {
+  margin-left: -6px;
+}
+.swiper-slide:nth-child(2) #Secs {
+  margin-left: 1px;
+}
+.swiper-slide:nth-child(2) .button__style {
+  margin-left: 8px;
+}
+.swiper-slide:last-child {
+  margin-left: 10px;
+}
+.swiper-slide:last-child .NFT__timer {
+  padding-left: 38px;
+}
+.swiper-slide:last-child #Mins {
+  margin-left: -6px;
+}
+.swiper-slide:last-child #Secs {
+  margin-left: -4px;
+}
+.swiper-slide:last-child .box__timer {
+  padding-left: 2px;
+}
+.swiper-slide:last-child .button__style {
+  margin-left: -3px;
+}
+
+.swiper__info__panel {
+  display: flex;
+  justify-content: space-between;
+  padding: 220px 119px 47px 110px;
+}
+.swiper__info__panel h2 {
+  color: #FFF;
+  font-family: Orbitron;
+  font-size: 26.531px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.swiper__info__panel a {
+  display: flex;
+  color: #FFF;
+  font-family: Orbitron;
+  font-size: 26.531px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-items: center;
+  text-decoration: none;
+  gap: 26.58px;
+}
+.swiper__info__panel span {
+  display: flex;
+  position: relative;
+  width: 40px;
+  height: 3px;
+  background-color: #FFF;
+  padding-left: 1px;
+}
+.swiper__info__panel span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 72%;
+  width: 15px;
+  height: 3px;
+  transform: rotate(-45deg);
+  background-color: #FFF;
+}
+.swiper__info__panel span::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 72%;
+  width: 15px;
+  height: 3px;
+  transform: rotate(45deg);
+  background-color: #FFF;
+}
+
+.NFT__img {
+  background-size: cover;
+  width: 437px;
+  height: 384px;
+}
+
+.cardNFT {
+  width: 437.762px;
+  height: 236.161px;
+  display: flex;
+  gap: 25px;
+  fill: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.02) 100%);
+  -webkit-backdrop-filter: blur(39.6px);
+          backdrop-filter: blur(39.6px);
+  border: solid 1px gray;
+}
+.cardNFT .card__title {
+  padding: 38px 0px 0px 29px;
+  margin: 0px 0px 0px 0px;
+  color: #FFF;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Rajdhani;
+  font-size: 23.04px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46.08px;
+}
+.cardNFT .profile {
+  padding: 0px 0px 0px 31px;
+  margin: -4px 0px 0px 0px;
+}
+.cardNFT .profile p {
+  color: #FFF;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Rajdhani;
+  font-size: 20.16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46.08px;
+}
+.cardNFT .profile img:first-child {
+  width: 37.44px;
+  height: 37.44px;
+}
+.cardNFT .card__text {
+  padding: 8px 0px 0px 30px;
+}
+.cardNFT .card__text p {
+  color: #FFF;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Rajdhani;
+  font-size: 14.4px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46.08px;
+}
+.cardNFT .price {
+  margin: -14px 0px 0px 13px;
+}
+.cardNFT .price p {
+  color: #FFF;
+  font-family: Orbitron;
+  font-size: 12.659px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.cardNFT .price span {
+  color: var(--white-white-100, #FFF);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Rajdhani;
+  font-size: 14.4px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46.08px;
+  padding-left: 4px;
+}
+.cardNFT .NFT__timer .card__text:first-child {
+  padding: 36px 0px 0px 11px;
+  margin: 0px 0px 0px 0px;
+}
+.cardNFT .card__timer .card__text {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  color: #FFF;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Rajdhani;
+  font-size: 14.4px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 46.08px;
+}
+.cardNFT .box__timer {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+.cardNFT .box__timer .card__text {
+  margin: -24px 0px 0px 8px;
+}
+.cardNFT .box__timer .card__text p {
+  color: #FFF;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Rajdhani;
+  font-size: 14.4px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 46.08px;
+}
+.cardNFT .Time {
+  padding: 1px 0px 0px 12px;
+  margin: -15px 0px 0px 0px;
+  color: #FFF;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Rajdhani;
+  font-size: 23.04px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46.08px;
+}
+.cardNFT .button__style {
+  padding: 12px 25px 8px 15px;
+  margin: 22px 0px 0px 0px;
+  color: #FFF;
+  font-family: Rajdhani;
+  font-size: 23.04px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}/*# sourceMappingURL=Swiper__box.css.map */

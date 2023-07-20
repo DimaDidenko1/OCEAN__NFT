@@ -13,7 +13,7 @@ li {
 .Description {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: auto auto;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   padding-top: 103px;
@@ -599,6 +599,7 @@ li {
   display: flex;
   gap: 135.76px;
   padding-top: 111px;
+  align-self: start;
 }
 @media (max-width: 1360px) {
   .Descript__box__partners {

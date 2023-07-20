@@ -1,0 +1,274 @@
+.Swiper__box {
+    
+
+
+
+
+ }
+.swiper {
+    width: 1394px;
+    position: relative;
+    
+    
+ }
+.swiper-wrapper { }
+.swiper-slide {
+    &:first-child{
+        margin-left: 6px;
+        #Mins{
+            margin-left: -6px;
+        }
+        #Secs{
+            margin-left: -4px;
+        }
+        .button__style{
+            margin-left: -2px;
+        }
+    }
+    &:nth-child(2){
+        margin-left: 7px;
+        .box__timer{
+            padding-left: 9px;
+        }
+        #Mins{
+            margin-left: -6px;
+        }
+        #Secs{
+            margin-left: 1px;
+        }
+        .button__style{
+            margin-left: 8px;
+        }
+    }
+    &:last-child{
+        margin-left: 10px;
+        .NFT__timer{
+            padding-left: 38px;
+        }
+        #Mins{
+            margin-left: -6px;
+        }
+        #Secs{
+            margin-left: -4px;
+        }
+        .box__timer{
+            padding-left: 2px;
+        }
+        .button__style{
+            margin-left: -3px;
+        }
+    }
+ }
+.swiper-pagination { }
+.swiper-button-prev { }
+.swiper-button-next { }
+.swiper-scrollbar { }
+.swiper__info__panel{
+    display: flex;
+    justify-content: space-between;
+    padding: 220px 119px 47px 110px;
+    
+        h2{
+            color: #FFF;
+            font-family: Orbitron;
+            font-size: 26.531px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        a{
+            display: flex;
+            color: #FFF;
+            font-family: Orbitron;
+            font-size: 26.531px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            align-items: center;
+            text-decoration: none;
+            gap: 26.58px;
+        }
+        span{
+            display: flex;
+            position: relative;
+            width: 40px;
+            height: 3px;
+            background-color: #FFF;
+            padding-left: 1px;
+            &::before{
+                content: '';
+                position: absolute;
+                top: 3px;
+                left: 72%;
+                width: 15px;
+                height: 3px;
+                transform: rotate(-45deg);
+                background-color: #FFF; 
+
+            }
+            &::after{
+                content: '';
+                position: absolute;
+                top: -5px;
+                left: 72%;
+                width: 15px;
+                height: 3px;
+                transform: rotate(45deg);
+                background-color: #FFF;
+
+            }
+        }
+}
+
+
+
+.NFT__BOX {
+}
+.NFT__img {
+    
+    background-size: cover;
+    width: 437px;
+    height: 384px;
+ }
+.cardNFT {
+    
+    width: 437.762px;
+    height: 236.161px;
+    display: flex;
+    gap: 25px;
+    fill: linear-gradient(90deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.02) 100%);
+    backdrop-filter: blur(39.60px);
+    border: solid 1px gray;
+
+
+    .card__title {
+        padding: 38px 0px 0px 29px;
+        margin: 0px 0px 0px 0px;
+        color: #FFF;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Rajdhani;
+        font-size: 23.04px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 46.08px;
+     }
+    .profile {
+        padding: 0px 0px 0px 31px;
+        margin: -4px 0px 0px 0px;
+        p{
+            color: #FFF;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Rajdhani;
+            font-size: 20.16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 46.08px;
+        }
+        img:first-child{
+            width: 37.44px;
+            height: 37.44px;
+        }
+
+     }
+    .profile__logo { }
+    .profile__name { }
+    .vf { }
+    .card__text {
+        padding: 8px 0px 0px 30px;
+        
+        p{
+            color: #FFF;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Rajdhani;
+            font-size: 14.4px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 46.08px;
+        }
+     }
+    .price {
+        
+        margin: -14px 0px 0px 13px;
+        
+        p{
+            color: #FFF;
+        font-family: Orbitron;
+        font-size: 12.659px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        }
+        span{
+            color: var(--white-white-100, #FFF);
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Rajdhani;
+            font-size: 14.4px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 46.08px;
+            padding-left: 4px;
+        }
+     }
+    .NFT__timer {
+        .card__text:first-child{
+            padding: 36px 0px 0px 11px;
+            margin: 0px 0px 0px 0px;
+        }
+     }
+    .card__timer {
+        .card__text{
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 0px 0px;
+            color: #FFF;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Rajdhani;
+            font-size: 14.4px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 46.08px;
+        }
+     }
+    .box__timer {
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        .card__text{
+            margin: -24px 0px 0px 8px;
+            p{
+                color: #FFF;
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Rajdhani;
+                font-size: 14.4px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 46.08px;
+            }
+        }
+     }
+    .Time {
+        padding: 1px 0px 0px 12px;
+        margin: -15px 0px 0px 0px;
+        color: #FFF;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Rajdhani;
+        font-size: 23.04px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 46.08px;
+     }
+    .button__style {
+        padding: 12px 25px 8px 15px;
+        margin: 22px 0px 0px 0px;
+        color: #FFF;
+        font-family: Rajdhani;
+        font-size: 23.04px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+     }
+
+ }
+.NFT__info {
+
+ }
+
+
