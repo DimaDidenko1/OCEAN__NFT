@@ -307,7 +307,7 @@ li {
         clip-path: polygon(40% 0%, 70% 0%, 100% 0, 100% 70%, 100% 100%, 0 100%, 0% 70%, 0% 19%);
     }
     @media (max-width: 1509px) {
-        margin-left: -100px;
+        margin-left: -157px;
         
     }
  }
@@ -346,11 +346,7 @@ li {
         right: 0px;
         max-width: 324px;
     }
-    @media (max-width:1509px) {
-        top: 334px;
-        left: 20%;
-        
-    }
+    
  }
 .card__descript {
     .card__text{
@@ -571,7 +567,7 @@ li {
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
-        margin: 0 auto;
+        justify-content: center;
     }
 
     

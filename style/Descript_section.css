@@ -343,7 +343,7 @@ li {
 }
 @media (max-width: 1509px) {
   .Descript__box__nft {
-    margin-left: -100px;
+    margin-left: -157px;
   }
 }
 
@@ -382,12 +382,6 @@ li {
     top: 334px;
     right: 0px;
     max-width: 324px;
-  }
-}
-@media (max-width: 1509px) {
-  .card {
-    top: 334px;
-    left: 20%;
   }
 }
 
@@ -631,7 +625,7 @@ li {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    margin: 0 auto;
+    justify-content: center;
   }
 }
 
