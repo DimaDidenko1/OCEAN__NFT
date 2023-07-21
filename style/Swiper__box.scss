@@ -18,52 +18,107 @@
 .swiper-slide {
     display: flex;
     justify-content: center;
+
+    
+
     &:first-child{
             
-        margin-left: 50px;
+        margin-left: 62px;
+        
+        #Hours{
+            margin-left: 1px;
+            margin-top: 0px;
+        }
         #Mins{
-            margin-left: -27px;
+            margin-left: -7px;
+            
         }
         #Secs{
-            margin-left: -44px;
+            margin-left: -6px;
         }
         .button__style{
             margin-left: -2px;
+            margin-top: 22px;
+        }
+        .box__timer{
+            .card__text{
+                margin: -33px 0px 0px -19px;
+            }
         }
     }
     &:nth-child(2){
-        margin-left: -60px;
+        margin-left: -61px;
+       .card__timer{
+        .card__text:first-child{
+            margin: 0px 0px 0px 8px;
+        }
+       }
         .box__timer{
-            padding-left: 9px;
+            .card__text{
+                margin: -34px 0px 0px -16px;
+            }
+        }
+        #Hours{
+            margin-left: 12px;
         }
         #Mins{
-            margin-left: -6px;
+            margin-left: -4px;
         }
         #Secs{
-            margin-left: 1px;
+            margin-left: -3px;
         }
         .button__style{
-            margin-left: 8px;
+            margin-top: 24px;
+            margin-left: 5px;
         }
         
     }
     &:last-child{
-       
-        margin-left: -61px;
+        
+        margin-left: -60px;
+        .card__timer{
+            .card__text:first-child{
+                margin: 0px 0px 0px 40px;
+            }
+           }
+
+        .card__text:first-child{
+            padding-left: 1px;
+        }
         .NFT__timer{
-            padding-left: 38px;
+            padding-left: 0px;
+        }
+        #Hours{
+            margin-left: 42px;
         }
         #Mins{
-            margin-left: -6px;
+            margin-left: -11px;
         }
         #Secs{
-            margin-left: -4px;
+            margin-left: -5px;
         }
+        #HoursT{
+            margin-top: -34px;
+            margin-left: 24px;
+        }
+        #MinsT{
+            margin-top: -33px;
+            margin-left: -24px;
+        }
+        #SecsT{
+            margin-top: -34px;
+            margin-left: -22px;
+        }
+
+
         .box__timer{
-            padding-left: 2px;
+            .card__text{
+                margin: 0px 0px 0px 0px;
+            }
         }
         .button__style{
-            margin-left: -3px;
+            margin-top: 22px;
+            margin-left: 36px;
         }
     }
     @media (max-width:992px) {
@@ -353,7 +408,7 @@
      }
     .NFT__timer {
         .card__text:first-child{
-            padding: 36px 0px 0px 11px;
+            padding: 33px 0px 0px 11px;
             margin: 0px 0px 0px 0px;
             @media (max-width:992px) {
                 padding: 25px 0px 0px 5px;
@@ -413,8 +468,8 @@
         }
      }
     .Time {
-        padding: 10px 0px 0px 192px;
-        margin: -15px 0px 0px 0px;
+        padding: 0px 0px 0px 15px;
+        margin: 0px 0px 0px 0px;
         color: #FFF;
         font-feature-settings: 'clig' off, 'liga' off;
         font-family: Rajdhani;
