@@ -11,10 +11,10 @@
   margin-left: 50px;
 }
 .swiper-slide:first-child #Mins {
-  margin-left: -6px;
+  margin-left: -27px;
 }
 .swiper-slide:first-child #Secs {
-  margin-left: -4px;
+  margin-left: -44px;
 }
 .swiper-slide:first-child .button__style {
   margin-left: -2px;
@@ -398,7 +398,7 @@
   }
 }
 .cardNFT .Time {
-  padding: 1px 0px 0px 12px;
+  padding: 10px 0px 0px 192px;
   margin: -15px 0px 0px 0px;
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
