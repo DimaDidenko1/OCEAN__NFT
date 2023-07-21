@@ -19,6 +19,7 @@ const swiper = new Swiper('.swiper', {
     992: {
       slidesPerView: 2,
       
+      
     },
     1600: {
       slidesPerView: 3, // Отображаем по 3 слайда при ширине 1400 пикселей

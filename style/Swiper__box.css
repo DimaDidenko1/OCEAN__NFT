@@ -7,137 +7,21 @@
   display: flex;
   justify-content: center;
 }
-.swiper-slide:first-child {
-  margin-left: 62px;
-}
-.swiper-slide:first-child #Hours {
-  margin-left: 1px;
-  margin-top: 0px;
-}
-.swiper-slide:first-child #Mins {
-  margin-left: -7px;
-}
-.swiper-slide:first-child #Secs {
-  margin-left: -6px;
-}
-.swiper-slide:first-child .button__style {
-  margin-left: -2px;
-  margin-top: 22px;
-}
-.swiper-slide:first-child .box__timer .card__text {
-  margin: -33px 0px 0px -19px;
-}
-.swiper-slide:nth-child(2) {
-  margin-left: -61px;
-}
-.swiper-slide:nth-child(2) .card__timer .card__text:first-child {
-  margin: 0px 0px 0px 8px;
-}
-.swiper-slide:nth-child(2) .box__timer .card__text {
-  margin: -34px 0px 0px -16px;
-}
-.swiper-slide:nth-child(2) #Hours {
-  margin-left: 12px;
-}
-.swiper-slide:nth-child(2) #Mins {
-  margin-left: -4px;
-}
-.swiper-slide:nth-child(2) #Secs {
-  margin-left: -3px;
-}
-.swiper-slide:nth-child(2) .button__style {
-  margin-top: 24px;
-  margin-left: 5px;
-}
-.swiper-slide:last-child {
-  margin-left: -60px;
-}
-.swiper-slide:last-child .card__timer .card__text:first-child {
-  margin: 0px 0px 0px 40px;
-}
-.swiper-slide:last-child .card__text:first-child {
-  padding-left: 1px;
-}
-.swiper-slide:last-child .NFT__timer {
-  padding-left: 0px;
-}
-.swiper-slide:last-child #Hours {
-  margin-left: 42px;
-}
-.swiper-slide:last-child #Mins {
-  margin-left: -11px;
-}
-.swiper-slide:last-child #Secs {
-  margin-left: -5px;
-}
-.swiper-slide:last-child #HoursT {
-  margin-top: -34px;
-  margin-left: 24px;
-}
-.swiper-slide:last-child #MinsT {
-  margin-top: -33px;
-  margin-left: -24px;
-}
-.swiper-slide:last-child #SecsT {
-  margin-top: -34px;
-  margin-left: -22px;
-}
-.swiper-slide:last-child .box__timer .card__text {
-  margin: 0px 0px 0px 0px;
-}
-.swiper-slide:last-child .button__style {
-  margin-top: 22px;
-  margin-left: 36px;
-}
 @media (max-width: 992px) {
   .swiper-slide {
-    padding: 0px 0px 0px 22px;
-    margin: 0px 10px 0px 0px;
+    margin-left: 11px;
+    margin-right: 5px;
+  }
+}
+@media (min-width: 1000px) {
+  .swiper-slide:first-child {
+    margin: 0px 0px 0px 62px;
   }
   .swiper-slide:nth-child(2) {
-    margin-left: 16px;
-  }
-  .swiper-slide:first-child {
-    margin: 0;
-  }
-  .swiper-slide:first-child #Mins {
-    margin-left: -6px;
-  }
-  .swiper-slide:first-child #Secs {
-    margin-left: -4px;
-  }
-  .swiper-slide:first-child .button__style {
-    margin-left: -2px;
-  }
-  .swiper-slide:nth-child(2) .box__timer {
-    padding-left: 9px;
-  }
-  .swiper-slide:nth-child(2) #Mins {
-    margin-left: -6px;
-  }
-  .swiper-slide:nth-child(2) #Secs {
-    margin-left: 1px;
-  }
-  .swiper-slide:nth-child(2) .button__style {
-    margin-left: 8px;
+    margin: 0px 0px 0px -59px;
   }
   .swiper-slide:last-child {
-    margin-left: -61px;
-  }
-  .swiper-slide:last-child .NFT__timer {
-    padding-left: 38px;
-  }
-  .swiper-slide:last-child #Mins {
-    margin-left: -6px;
-  }
-  .swiper-slide:last-child #Secs {
-    margin-left: -4px;
-  }
-  .swiper-slide:last-child .box__timer {
-    padding-left: 2px;
-  }
-  .swiper-slide:last-child .button__style {
-    margin-left: -3px;
+    margin: 0px 0px 0px -63px;
   }
 }
 
@@ -230,10 +114,10 @@
 }
 
 .cardNFT {
+  position: relative;
   width: 437.762px;
   height: 236.161px;
   display: flex;
-  gap: 25px;
   fill: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.02) 100%);
   -webkit-backdrop-filter: blur(39.6px);
           backdrop-filter: blur(39.6px);
@@ -243,12 +127,9 @@
   .cardNFT {
     width: 303.971px;
     height: 163.985px;
-    gap: 39px;
   }
 }
 .cardNFT .card__title {
-  padding: 38px 0px 0px 29px;
-  margin: 0px 0px 0px 0px;
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
   font-family: Rajdhani;
@@ -259,24 +140,8 @@
 }
 @media (max-width: 992px) {
   .cardNFT .card__title {
-    padding: 26px 0px 0px 21px;
-    margin: 0px 0px 0px 0px;
-  }
-}
-@media (max-width: 992px) {
-  .cardNFT .card__title {
     font-size: 13.601px;
     line-height: 27.201px;
-  }
-}
-.cardNFT .profile {
-  padding: 0px 0px 0px 31px;
-  margin: -4px 0px 0px 0px;
-}
-@media (max-width: 992px) {
-  .cardNFT .profile {
-    padding: 3px 0px 0px 20px;
-    margin: 0px 0px 0px 0px;
   }
 }
 .cardNFT .profile p {
@@ -294,11 +159,6 @@
     line-height: 27.201px;
   }
 }
-@media (max-width: 992px) {
-  .cardNFT .profile img:last-child {
-    margin-left: 11px;
-  }
-}
 .cardNFT .profile img:first-child {
   width: 37.44px;
   height: 37.44px;
@@ -308,9 +168,6 @@
     width: 25.998px;
     height: 25.998px;
   }
-}
-.cardNFT .card__text {
-  padding: 8px 0px 0px 30px;
 }
 .cardNFT .card__text p {
   color: #FFF;
@@ -327,20 +184,10 @@
     line-height: 27.201px;
   }
 }
-.cardNFT .price {
-  margin: -14px 0px 0px 13px;
-}
 @media (max-width: 992px) {
-  .cardNFT .price {
-    padding: 0px 0px 0px 19px;
-    margin: -6px 0px 0px 0px;
-  }
   .cardNFT .price img {
     width: 11.58px;
     height: 17.58px;
-  }
-  .cardNFT .price span {
-    margin-left: 1px;
   }
 }
 .cardNFT .price p {
@@ -372,16 +219,6 @@
     line-height: 27.201px;
   }
 }
-.cardNFT .NFT__timer .card__text:first-child {
-  padding: 33px 0px 0px 11px;
-  margin: 0px 0px 0px 0px;
-}
-@media (max-width: 992px) {
-  .cardNFT .NFT__timer .card__text:first-child {
-    padding: 25px 0px 0px 5px;
-    margin: 0px 0px 0px 0px;
-  }
-}
 .cardNFT .card__timer .card__text {
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
@@ -396,27 +233,6 @@
     font-size: 8.5px;
     line-height: 27.201px;
     font-weight: 600;
-  }
-}
-@media (max-width: 992px) {
-  .cardNFT .box__timer {
-    margin: -5px 0px 0px 0px;
-    padding: 0px 0px 0px 5px;
-  }
-  .cardNFT .box__timer .card__text {
-    margin: 0px 0px 0px 8px;
-    padding: 0px 0px 0px 0px;
-  }
-  .cardNFT .box__timer #Mins {
-    margin-left: 1px;
-  }
-  .cardNFT .box__timer #Secs {
-    margin-left: 5px;
-  }
-}
-@media (max-width: 992px) {
-  .cardNFT .box__timer .card__text {
-    margin: -12px 0px 0px 0px;
   }
 }
 .cardNFT .box__timer .card__text p {
@@ -435,8 +251,6 @@
   }
 }
 .cardNFT .Time {
-  padding: 0px 0px 0px 15px;
-  margin: 0px 0px 0px 0px;
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
   font-family: Rajdhani;
@@ -449,13 +263,9 @@
   .cardNFT .Time {
     font-size: 13.601px;
     line-height: 27.201px;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
   }
 }
 .cardNFT .button__style {
-  padding: 12px 25px 8px 15px;
-  margin: 22px 0px 0px 0px;
   color: #FFF;
   font-family: Rajdhani;
   font-size: 23.04px;
@@ -466,15 +276,6 @@
 @media (max-width: 992px) {
   .cardNFT .button__style {
     font-size: 13.601px;
-    padding: 7px 5px 6px 7px;
-    margin: 19px 0px 0px 0px;
-    gap: 19px;
-  }
-}
-
-@media (max-width: 992px) {
-  .NFT__info .card__text {
-    padding: 11px 0px 0px 20px;
   }
 }
 
