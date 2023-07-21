@@ -147,7 +147,7 @@
     .card__title {
         
         @media (max-width:992px) {
-            
+            padding: 24px 0px 0px -1px;
         }
         color: #FFF;
         font-feature-settings: 'clig' off, 'liga' off;
@@ -165,7 +165,7 @@
     .profile {
         
         @media (max-width:992px) {
-            
+            padding: 4px 0px 0px 19px;
         }
         p{
             color: #FFF;
@@ -195,11 +195,17 @@
     .profile__logo { }
     .profile__name { }
     .vf { }
-    .card__text {
-        
-        @media (max-width:992px) {
+    .NFT__info{
+        .card__text{
+            @media (max-width:992px) {
+                padding: 10px 0px 0px 20px;
+            }
             
         }
+    }
+    .card__text {
+        
+        
         p{
             color: #FFF;
             font-feature-settings: 'clig' off, 'liga' off;
@@ -218,7 +224,7 @@
         
         
         @media (max-width:992px) {
-            
+            padding: 6px 0px 0px 18px;
             img{
                 width: 11.58px;
                 height: 17.58px;
@@ -259,7 +265,7 @@
         .card__text:first-child{
            
             @media (max-width:992px) {
-                
+                padding: 24px 0px 0px 52px;
             }
         }
      }
@@ -281,7 +287,21 @@
         }
      }
     .box__timer {
-       
+        @media (max-width: 992px) {
+            padding: 7px 0px 0px 52px;
+            #Hours{
+                margin: 0px 0px 0px 0px;
+            }
+            #Mins{
+                margin: 0px 0px 0px -5px;
+            }
+            #Secs{
+                margin: 0px 0px 0px -7px;
+            }
+            .card__text{
+                margin: -12px 0px 0px 5px;
+            }
+        }
         .card__text{
            
             p{
@@ -324,6 +344,7 @@
         line-height: normal;
         @media (max-width:992px) {
             font-size: 13.601px;
+            margin-left: 36px;
         }
      }
 
