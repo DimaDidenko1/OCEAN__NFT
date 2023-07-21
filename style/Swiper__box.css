@@ -7,14 +7,8 @@
   display: flex;
   justify-content: center;
 }
-@media (max-width: 992px) {
-  .swiper-slide {
-    padding: 0px 0px 0px 31px;
-    margin: 0px 10px 0px 0px;
-  }
-}
 .swiper-slide:first-child {
-  margin-left: -5px;
+  margin-left: 50px;
 }
 .swiper-slide:first-child #Mins {
   margin-left: -6px;
@@ -26,7 +20,7 @@
   margin-left: -2px;
 }
 .swiper-slide:nth-child(2) {
-  margin-left: 7px;
+  margin-left: -60px;
 }
 .swiper-slide:nth-child(2) .box__timer {
   padding-left: 9px;
@@ -41,7 +35,7 @@
   margin-left: 8px;
 }
 .swiper-slide:last-child {
-  margin-left: 10px;
+  margin-left: -61px;
 }
 .swiper-slide:last-child .NFT__timer {
   padding-left: 38px;
@@ -57,6 +51,57 @@
 }
 .swiper-slide:last-child .button__style {
   margin-left: -3px;
+}
+@media (max-width: 992px) {
+  .swiper-slide {
+    padding: 0px 0px 0px 22px;
+    margin: 0px 10px 0px 0px;
+  }
+  .swiper-slide:nth-child(2) {
+    margin-left: 16px;
+  }
+  .swiper-slide:first-child {
+    margin: 0;
+  }
+  .swiper-slide:first-child #Mins {
+    margin-left: -6px;
+  }
+  .swiper-slide:first-child #Secs {
+    margin-left: -4px;
+  }
+  .swiper-slide:first-child .button__style {
+    margin-left: -2px;
+  }
+  .swiper-slide:nth-child(2) .box__timer {
+    padding-left: 9px;
+  }
+  .swiper-slide:nth-child(2) #Mins {
+    margin-left: -6px;
+  }
+  .swiper-slide:nth-child(2) #Secs {
+    margin-left: 1px;
+  }
+  .swiper-slide:nth-child(2) .button__style {
+    margin-left: 8px;
+  }
+  .swiper-slide:last-child {
+    margin-left: -61px;
+  }
+  .swiper-slide:last-child .NFT__timer {
+    padding-left: 38px;
+  }
+  .swiper-slide:last-child #Mins {
+    margin-left: -6px;
+  }
+  .swiper-slide:last-child #Secs {
+    margin-left: -4px;
+  }
+  .swiper-slide:last-child .box__timer {
+    padding-left: 2px;
+  }
+  .swiper-slide:last-child .button__style {
+    margin-left: -3px;
+  }
 }
 
 .swiper__info__panel {
@@ -384,7 +429,7 @@
 @media (max-width: 992px) {
   .cardNFT .button__style {
     font-size: 13.601px;
-    padding: 7px 14px 6px 7px;
+    padding: 7px 5px 6px 7px;
     margin: 19px 0px 0px 0px;
     gap: 19px;
   }
