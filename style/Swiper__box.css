@@ -7,8 +7,14 @@
   display: flex;
   justify-content: center;
 }
+@media (max-width: 992px) {
+  .swiper-slide {
+    padding: 0px 0px 0px 31px;
+    margin: 0px 10px 0px 0px;
+  }
+}
 .swiper-slide:first-child {
-  margin-left: 6px;
+  margin-left: -5px;
 }
 .swiper-slide:first-child #Mins {
   margin-left: -6px;
@@ -57,6 +63,12 @@
   display: flex;
   justify-content: space-between;
   padding: 220px 119px 47px 110px;
+}
+@media (max-width: 992px) {
+  .swiper__info__panel {
+    padding: 95px 0px 37px 26px;
+    margin: 0px 0px 0px 0px;
+  }
 }
 .swiper__info__panel h2 {
   color: #FFF;
@@ -124,6 +136,7 @@
 
 .NFT__img {
   background-size: cover;
+  background-position: center;
   width: 437px;
   height: 384px;
 }
@@ -148,6 +161,7 @@
   .cardNFT {
     width: 303.971px;
     height: 163.985px;
+    gap: 39px;
   }
 }
 .cardNFT .card__title {
@@ -161,9 +175,27 @@
   font-weight: 700;
   line-height: 46.08px;
 }
+@media (max-width: 992px) {
+  .cardNFT .card__title {
+    padding: 26px 0px 0px 21px;
+    margin: 0px 0px 0px 0px;
+  }
+}
+@media (max-width: 992px) {
+  .cardNFT .card__title {
+    font-size: 13.601px;
+    line-height: 27.201px;
+  }
+}
 .cardNFT .profile {
   padding: 0px 0px 0px 31px;
   margin: -4px 0px 0px 0px;
+}
+@media (max-width: 992px) {
+  .cardNFT .profile {
+    padding: 3px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
+  }
 }
 .cardNFT .profile p {
   color: #FFF;
@@ -174,9 +206,26 @@
   font-weight: 600;
   line-height: 46.08px;
 }
+@media (max-width: 992px) {
+  .cardNFT .profile p {
+    font-size: 11.901px;
+    line-height: 27.201px;
+  }
+}
+@media (max-width: 992px) {
+  .cardNFT .profile img:last-child {
+    margin-left: 11px;
+  }
+}
 .cardNFT .profile img:first-child {
   width: 37.44px;
   height: 37.44px;
+}
+@media (max-width: 992px) {
+  .cardNFT .profile img:first-child {
+    width: 25.998px;
+    height: 25.998px;
+  }
 }
 .cardNFT .card__text {
   padding: 8px 0px 0px 30px;
@@ -190,8 +239,27 @@
   font-weight: 600;
   line-height: 46.08px;
 }
+@media (max-width: 992px) {
+  .cardNFT .card__text p {
+    font-size: 8.5px;
+    line-height: 27.201px;
+  }
+}
 .cardNFT .price {
   margin: -14px 0px 0px 13px;
+}
+@media (max-width: 992px) {
+  .cardNFT .price {
+    padding: 0px 0px 0px 19px;
+    margin: -6px 0px 0px 0px;
+  }
+  .cardNFT .price img {
+    width: 11.58px;
+    height: 17.58px;
+  }
+  .cardNFT .price span {
+    margin-left: 1px;
+  }
 }
 .cardNFT .price p {
   color: #FFF;
@@ -200,6 +268,11 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+@media (max-width: 992px) {
+  .cardNFT .price p {
+    font-size: 7.472px;
+  }
 }
 .cardNFT .price span {
   color: var(--white-white-100, #FFF);
@@ -211,13 +284,23 @@
   line-height: 46.08px;
   padding-left: 4px;
 }
+@media (max-width: 992px) {
+  .cardNFT .price span {
+    font-size: 8.5px;
+    line-height: 27.201px;
+  }
+}
 .cardNFT .NFT__timer .card__text:first-child {
   padding: 36px 0px 0px 11px;
   margin: 0px 0px 0px 0px;
 }
+@media (max-width: 992px) {
+  .cardNFT .NFT__timer .card__text:first-child {
+    padding: 25px 0px 0px 5px;
+    margin: 0px 0px 0px 0px;
+  }
+}
 .cardNFT .card__timer .card__text {
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
   font-family: Rajdhani;
@@ -226,12 +309,33 @@
   font-weight: 500;
   line-height: 46.08px;
 }
-.cardNFT .box__timer {
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
+@media (max-width: 992px) {
+  .cardNFT .card__timer .card__text {
+    font-size: 8.5px;
+    line-height: 27.201px;
+    font-weight: 600;
+  }
 }
-.cardNFT .box__timer .card__text {
-  margin: -24px 0px 0px 8px;
+@media (max-width: 992px) {
+  .cardNFT .box__timer {
+    margin: -5px 0px 0px 0px;
+    padding: 0px 0px 0px 5px;
+  }
+  .cardNFT .box__timer .card__text {
+    margin: 0px 0px 0px 8px;
+    padding: 0px 0px 0px 0px;
+  }
+  .cardNFT .box__timer #Mins {
+    margin-left: 1px;
+  }
+  .cardNFT .box__timer #Secs {
+    margin-left: 5px;
+  }
+}
+@media (max-width: 992px) {
+  .cardNFT .box__timer .card__text {
+    margin: -12px 0px 0px 0px;
+  }
 }
 .cardNFT .box__timer .card__text p {
   color: #FFF;
@@ -241,6 +345,12 @@
   font-style: normal;
   font-weight: 500;
   line-height: 46.08px;
+}
+@media (max-width: 992px) {
+  .cardNFT .box__timer .card__text p {
+    font-size: 8.5px;
+    line-height: 27.201px;
+  }
 }
 .cardNFT .Time {
   padding: 1px 0px 0px 12px;
@@ -253,6 +363,14 @@
   font-weight: 600;
   line-height: 46.08px;
 }
+@media (max-width: 992px) {
+  .cardNFT .Time {
+    font-size: 13.601px;
+    line-height: 27.201px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+}
 .cardNFT .button__style {
   padding: 12px 25px 8px 15px;
   margin: 22px 0px 0px 0px;
@@ -261,5 +379,41 @@
   font-size: 23.04px;
   font-style: normal;
   font-weight: 600;
+  line-height: normal;
+}
+@media (max-width: 992px) {
+  .cardNFT .button__style {
+    font-size: 13.601px;
+    padding: 7px 14px 6px 7px;
+    margin: 19px 0px 0px 0px;
+    gap: 19px;
+  }
+}
+
+@media (max-width: 992px) {
+  .NFT__info .card__text {
+    padding: 11px 0px 0px 20px;
+  }
+}
+
+.Button__mobile {
+  display: none;
+}
+@media (max-width: 992px) {
+  .Button__mobile {
+    display: flex;
+  }
+}
+.Button__mobile button {
+  padding: 8px 15px 10px 27px;
+  margin: 38px 0px 0px 120px;
+  -webkit-clip-path: polygon(16% 0, 80% 0%, 100% 0, 100% 72%, 85% 100%, 0 100%, 0% 80%, 0 29%);
+          clip-path: polygon(16% 0, 80% 0%, 100% 0, 100% 72%, 85% 100%, 0 100%, 0% 80%, 0 29%);
+  background: transparent;
+  color: #FFF;
+  font-family: Orbitron;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
   line-height: normal;
 }/*# sourceMappingURL=Swiper__box.css.map */
