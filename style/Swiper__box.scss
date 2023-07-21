@@ -26,13 +26,42 @@
     @media (min-width:1000px) {
         &:first-child{
             margin: 0px 0px 0px 62px;
+            .box__timer{
+                padding: 0px 0px 0px 0px;
+        }
+        .button__style{
+            padding: 12px 22px 7px 16px;
+            margin: 23px 0px 0px 21px;
+        }
         }
         &:nth-child(2){
+            .button__style{
+                padding: 12px 22px 7px 16px;
+                margin: 23px 0px 0px 28px;
+            }
             margin: 0px 0px 0px -59px;
+            
+            .box__timer{
+                padding: 0px 0px 0px 8px;
+        }
         }
         &:last-child{
+            .button__style{
+                padding: 12px 22px 7px 16px;
+                margin: 23px 0px 0px 60px;
+            }
             margin: 0px 0px 0px -63px;
+            .card__timer{
+                .card__text:first-child{
+                    padding-left: 84px;
+                }
+            }
+            .box__timer{
+                
+                padding: 0px 0px 0px 42px;
         }
+        }
+        
     }
     
     
@@ -149,6 +178,9 @@
         @media (max-width:992px) {
             padding: 24px 0px 0px -1px;
         }
+        @media (min-width:1000px) {
+            padding: 34px 0px 0px 29px;
+        }
         color: #FFF;
         font-feature-settings: 'clig' off, 'liga' off;
         font-family: Rajdhani;
@@ -166,6 +198,9 @@
         
         @media (max-width:992px) {
             padding: 4px 0px 0px 19px;
+        }
+        @media (min-width:1000px) {
+            padding: 0px 0px 0px 29px;
         }
         p{
             color: #FFF;
@@ -199,6 +234,9 @@
         .card__text{
             @media (max-width:992px) {
                 padding: 10px 0px 0px 20px;
+            }
+            @media (min-width:1000px) {
+                padding: 8px 0px 0px 27px;
             }
             
         }
@@ -234,6 +272,9 @@
                 
             }
         }
+        @media (min-width:1000px) {
+            padding: 0px 0px 0px 30px;
+        }
         
         p{
             color: #FFF;
@@ -267,6 +308,9 @@
             @media (max-width:992px) {
                 padding: 24px 0px 0px 52px;
             }
+            @media (min-width:1000px) {
+                padding: 35px 0px 0px 42px;
+            }
         }
      }
     .card__timer {
@@ -287,6 +331,26 @@
         }
      }
     .box__timer {
+        @media (min-width:1000px) {
+            margin: -14px 0px 0px 34px;
+            
+                #Hours{
+                    margin: 0px 0px 0px 0px;
+                }
+                #Mins{
+                    margin: 0px 0px 0px 3px;
+                }
+                #Secs{
+                    margin: 0px 0px 0px 17px;
+                }
+                .card__text{
+                    margin: -24px 0px 0px 0px;
+                    
+                }
+                
+            
+           
+        }
         @media (max-width: 992px) {
             padding: 7px 0px 0px 52px;
             #Hours{

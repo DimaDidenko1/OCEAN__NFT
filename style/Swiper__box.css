@@ -17,11 +17,35 @@
   .swiper-slide:first-child {
     margin: 0px 0px 0px 62px;
   }
+  .swiper-slide:first-child .box__timer {
+    padding: 0px 0px 0px 0px;
+  }
+  .swiper-slide:first-child .button__style {
+    padding: 12px 22px 7px 16px;
+    margin: 23px 0px 0px 21px;
+  }
   .swiper-slide:nth-child(2) {
     margin: 0px 0px 0px -59px;
   }
+  .swiper-slide:nth-child(2) .button__style {
+    padding: 12px 22px 7px 16px;
+    margin: 23px 0px 0px 28px;
+  }
+  .swiper-slide:nth-child(2) .box__timer {
+    padding: 0px 0px 0px 8px;
+  }
   .swiper-slide:last-child {
     margin: 0px 0px 0px -63px;
+  }
+  .swiper-slide:last-child .button__style {
+    padding: 12px 22px 7px 16px;
+    margin: 23px 0px 0px 60px;
+  }
+  .swiper-slide:last-child .card__timer .card__text:first-child {
+    padding-left: 84px;
+  }
+  .swiper-slide:last-child .box__timer {
+    padding: 0px 0px 0px 42px;
   }
 }
 
@@ -143,6 +167,11 @@
     padding: 24px 0px 0px -1px;
   }
 }
+@media (min-width: 1000px) {
+  .cardNFT .card__title {
+    padding: 34px 0px 0px 29px;
+  }
+}
 @media (max-width: 992px) {
   .cardNFT .card__title {
     font-size: 13.601px;
@@ -152,6 +181,11 @@
 @media (max-width: 992px) {
   .cardNFT .profile {
     padding: 4px 0px 0px 19px;
+  }
+}
+@media (min-width: 1000px) {
+  .cardNFT .profile {
+    padding: 0px 0px 0px 29px;
   }
 }
 .cardNFT .profile p {
@@ -184,6 +218,11 @@
     padding: 10px 0px 0px 20px;
   }
 }
+@media (min-width: 1000px) {
+  .cardNFT .NFT__info .card__text {
+    padding: 8px 0px 0px 27px;
+  }
+}
 .cardNFT .card__text p {
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
@@ -206,6 +245,11 @@
   .cardNFT .price img {
     width: 11.58px;
     height: 17.58px;
+  }
+}
+@media (min-width: 1000px) {
+  .cardNFT .price {
+    padding: 0px 0px 0px 30px;
   }
 }
 .cardNFT .price p {
@@ -242,6 +286,11 @@
     padding: 24px 0px 0px 52px;
   }
 }
+@media (min-width: 1000px) {
+  .cardNFT .NFT__timer .card__text:first-child {
+    padding: 35px 0px 0px 42px;
+  }
+}
 .cardNFT .card__timer .card__text {
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
@@ -256,6 +305,23 @@
     font-size: 8.5px;
     line-height: 27.201px;
     font-weight: 600;
+  }
+}
+@media (min-width: 1000px) {
+  .cardNFT .box__timer {
+    margin: -14px 0px 0px 34px;
+  }
+  .cardNFT .box__timer #Hours {
+    margin: 0px 0px 0px 0px;
+  }
+  .cardNFT .box__timer #Mins {
+    margin: 0px 0px 0px 3px;
+  }
+  .cardNFT .box__timer #Secs {
+    margin: 0px 0px 0px 17px;
+  }
+  .cardNFT .box__timer .card__text {
+    margin: -24px 0px 0px 0px;
   }
 }
 @media (max-width: 992px) {
