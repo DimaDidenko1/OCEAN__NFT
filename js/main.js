@@ -5,6 +5,34 @@ let isBurgerMenuOpen = false;
 
 
 
+let activeButton = null;
+
+function changeIMG_btn(button) {
+   
+    if (activeButton !== null) {
+        activeButton.classList.remove('active__button__col');
+    }
+
+    
+    button.classList.add('active__button__col');
+    activeButton = button;
+
+    const collectionImage = document.getElementById('collectionImage');
+    const buttonText = button.textContent;
+    const imagePath = `./img/Colection/${buttonText}.png`; 
+    collectionImage.setAttribute('src', imagePath);
+}
+
+
+window.addEventListener('load', function() {
+    const defaultActiveButton = document.querySelector('.active__button__col');
+    if (defaultActiveButton) {
+        activeButton = defaultActiveButton;
+    }
+});
+
+
+
 
 const swiper = new Swiper('.swiper', {
   // Optional parameters

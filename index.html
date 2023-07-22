@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./style/header.css">
     <link rel="stylesheet" href="./style/Descript_section.css">
     <link rel="stylesheet" href="./style/Swiper__box.css">
+    <link rel="stylesheet" href="./style/Colection.css">
     <title>Ocean NFT</title>
 </head>
 <body>
@@ -143,8 +144,8 @@
         
         <section class="Swiper__box">
             <div class="swiper__info__panel">
-                <h2 class="">Top NFT’s now</h2>
-                <a href="">View all<span></span></a>
+                <h2 class="Title_on__page">Top NFT’s now</h2>
+                <a href="" class="View__title">View all<span></span></a>
             </div>
             <!-- Slider main container -->
             <div class="swiper">
@@ -292,7 +293,32 @@
             <div class="Button__mobile"><button class="button__style">Explore<span></span></button></div>
 
         </section>
-        <section></section>
+        <section class="Colection__box">
+            <div class="Title">
+                <h2 class="Title_on__page">Explore Collections</h2>
+            </div>
+
+
+            <div class="Colection__container">
+                <div class="Colection__button__box">
+                    <button onclick="changeIMG_btn(this)"  class="button__listener button__style">Photography</button>
+                    <button onclick="changeIMG_btn(this)"  class="button__listener button__style">Sports</button>
+                    <button onclick="changeIMG_btn(this)"  class="button__listener button__style">Brands</button>
+                    <button onclick="changeIMG_btn(this)"  class="button__listener button__style">Collectibles</button>
+                    <button onclick="changeIMG_btn(this)"  class="button__listener button__style active__button__col">Art</button>
+                    <button onclick="changeIMG_btn(this)"  class="button__listener button__style">Utility</button>
+                    <button onclick="changeIMG_btn(this)"  class="button__listener button__style">Brands</button>
+                    <button onclick="changeIMG_btn(this)"  class="button__listener button__style">Collectibles</button>
+                </div>
+                <div class="Colection__img"><img src="./img/Colection/Art.png" alt="" class="Celection__photo" id="collectionImage"></div>
+            </div>
+
+
+
+            <div class="View__title__box">
+                <a href="" class="View__title">View all<span></span></a>
+            </div>
+        </section>
     
     </div>
     
