@@ -1,5 +1,8 @@
 .Colection__box {
     padding-top: 210px;
+    @media (max-width:992px) {
+        position: relative;
+    }
     
  }
 .Title { }
@@ -20,6 +23,11 @@
         margin: 50px 0px 0px 0px;
         gap: 43.11px;
     }
+    @media (max-width: 992px) {
+        padding: 0px 25px 0px 0px;
+        margin: -31px 0px 0px 27px;
+        gap: 19px;
+    }
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -35,17 +43,26 @@
 
     .button__style {
         justify-content: center;
-        @media (min-width:993px) {
-            background: none;
+        background: none;
             color: rgba(255, 255, 255, 0.50);
             text-align: center;
             font-family: Orbitron;
+        @media (min-width:993px) {
+            
             font-size: 26.531px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
             width: 368.118px;
             height: 98.386px;
+        }
+        @media (max-width:992px) {
+            font-size: 10.992px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            width: 152.517px;
+            height: 40.763px;
         }
      }
      .active__button__col{
@@ -58,12 +75,84 @@
         
         margin-top: -82px;
     }
+    @media (max-width:992px) {
+        margin-top: 151px;
+        padding-left: 97px;
+    }
  }
 .Celection__photo {
-    width: 435.551px;
-    height: 814.723px;
+    @media (min-width:993px) {
+        width: 435.551px;
+        height: 814.723px;
+    }
+    @media (max-width:992px) {
+        width: 185.893px;
+        height: 347.723px;
+    }
  }
 .View__title {
+    display: flex;
+    color: #FFF;
+    font-family: Orbitron;
+    text-decoration: none;
+    span{
+        display: flex;
+        position: relative;
+        width: 40px;
+        height: 3px;
+        background-color: #FFF;
+        padding-left: 1px;
+        &::before{
+            content: '';
+            position: absolute;
+            top: 3px;
+            left: 72%;
+            width: 15px;
+            height: 3px;
+            transform: rotate(-45deg);
+            background-color: #FFF; 
+
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: 72%;
+            width: 15px;
+            height: 3px;
+            transform: rotate(45deg);
+            background-color: #FFF;
+
+        }
+    }
+    @media (max-width:992px) {
+        position: absolute;
+        top: 384px;
+        right: 30px;
+        font-size: 8.244px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        gap: 5px;
+        align-items: center;
+        span{
+            height: 1px;
+            width: 19px;
+            
+            &::after{
+                height: 1px;
+                width: 4px;
+                top:-2px;
+            }
+            &::before{
+                height: 1px;
+                width: 4px;
+                top:2px;
+                
+            }
+        }
+
+    }
     @media (min-width:993px) {
             
             display: flex;
@@ -74,48 +163,22 @@
             font-weight: 700;
             line-height: normal;
             align-items: center;
-            text-decoration: none;
-            gap: 26.58px;
-            @media (max-width:992px) {
-                display: none;
-            }
-        }
-        span{
-            display: flex;
-            position: relative;
-            width: 40px;
-            height: 3px;
-            background-color: #FFF;
-            padding-left: 1px;
-            &::before{
-                content: '';
-                position: absolute;
-                top: 3px;
-                left: 72%;
-                width: 15px;
-                height: 3px;
-                transform: rotate(-45deg);
-                background-color: #FFF; 
-
-            }
-            &::after{
-                content: '';
-                position: absolute;
-                top: -5px;
-                left: 72%;
-                width: 15px;
-                height: 3px;
-                transform: rotate(45deg);
-                background-color: #FFF;
-
-            }
+            
+            gap: 13.58px;
+            
+            
         }
 
+       
+    
     }
  
 .Colection__container{
     display: flex;
     justify-content: center;
+    @media (max-width:992px) {
+     flex-direction: column;   
+    }
     @media (min-width:993px) {
         margin-left: -32px;
         gap: 130px;
@@ -125,5 +188,7 @@
 .View__title__box{
     @media (min-width:993px) {
         margin: -114px 0px 0px 732px;
+        
     }
+    
 }
