@@ -2,21 +2,44 @@
     padding-top: 210px;
     @media (max-width:992px) {
         position: relative;
+        
     }
+    .View__title__box{
+        @media (max-width:993px) {
+            margin: -114px 0px 0px 732px;
+            
+        }
+       @media (max-width:1390px) {
+        margin: -445px 0px 0px 432px;
+       }
+    }
+    .Title_on__page {
     
+        @media (max-width:992px) {
+           position: absolute;
+           margin: -43px 0px 0px 100px;
+            color: #FFF;
+            font-family: Orbitron;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+       @media (min-width: 995px) {
+        padding: 0px 0px 0px 109px;
+        color: #FFF;
+        font-family: Orbitron;
+        font-size: 26.531px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+       }
+       
+     }
  }
 .Title { }
-.Title_on__page {
-   @media (min-width: 993px) {
-    padding: 0px 0px 0px 109px;
-    color: #FFF;
-    font-family: Orbitron;
-    font-size: 26.531px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-   }
- }
+
+ 
 .Colection__button__box {
     @media (min-width: 993px) {
         padding: 0px 0px 0px 0px;
@@ -25,7 +48,7 @@
     }
     @media (max-width: 992px) {
         padding: 0px 25px 0px 0px;
-        margin: -31px 0px 0px 27px;
+        margin: -50px 0px 0px 27px;
         gap: 19px;
     }
     display: grid;
@@ -47,7 +70,7 @@
             color: rgba(255, 255, 255, 0.50);
             text-align: center;
             font-family: Orbitron;
-        @media (min-width:993px) {
+        @media (min-width:1401px) {
             
             font-size: 26.531px;
             font-style: normal;
@@ -55,6 +78,14 @@
             line-height: normal;
             width: 368.118px;
             height: 98.386px;
+        }
+        @media (max-width:1390px) {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            width: 160.118px;
+            height: 50.386px;
         }
         @media (max-width:992px) {
             font-size: 10.992px;
@@ -71,6 +102,7 @@
 }
 
 .Colection__img {
+    
     @media (min-width:993px) {
         
         margin-top: -82px;
@@ -81,9 +113,13 @@
     }
  }
 .Celection__photo {
-    @media (min-width:993px) {
+    @media (min-width:1401px) {
         width: 435.551px;
         height: 814.723px;
+    }
+    @media (max-width:1390px) {
+        width: 250.551px;
+        height: 500.723px;
     }
     @media (max-width:992px) {
         width: 185.893px;
@@ -95,6 +131,7 @@
     color: #FFF;
     font-family: Orbitron;
     text-decoration: none;
+    align-items: center;
     span{
         display: flex;
         position: relative;
@@ -125,10 +162,12 @@
 
         }
     }
+    
     @media (max-width:992px) {
         position: absolute;
         top: 384px;
         right: 30px;
+       
         font-size: 8.244px;
         font-style: normal;
         font-weight: 700;
@@ -153,7 +192,8 @@
         }
 
     }
-    @media (min-width:993px) {
+   
+    @media (min-width:1401px) {
             
             display: flex;
             color: #FFF;
@@ -178,17 +218,11 @@
     justify-content: center;
     @media (max-width:992px) {
      flex-direction: column;   
+     margin: 48px 0px 0px 0px;
     }
     @media (min-width:993px) {
         margin-left: -32px;
         gap: 130px;
         
     }
-}
-.View__title__box{
-    @media (min-width:993px) {
-        margin: -114px 0px 0px 732px;
-        
-    }
-    
 }

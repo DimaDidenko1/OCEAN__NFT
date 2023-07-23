@@ -6,9 +6,30 @@
     position: relative;
   }
 }
-
-@media (min-width: 993px) {
-  .Title_on__page {
+@media (max-width: 993px) {
+  .Colection__box .View__title__box {
+    margin: -114px 0px 0px 732px;
+  }
+}
+@media (max-width: 1390px) {
+  .Colection__box .View__title__box {
+    margin: -445px 0px 0px 432px;
+  }
+}
+@media (max-width: 992px) {
+  .Colection__box .Title_on__page {
+    position: absolute;
+    margin: -43px 0px 0px 100px;
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+@media (min-width: 995px) {
+  .Colection__box .Title_on__page {
     padding: 0px 0px 0px 109px;
     color: #FFF;
     font-family: Orbitron;
@@ -37,7 +58,7 @@
 @media (max-width: 992px) {
   .Colection__button__box {
     padding: 0px 25px 0px 0px;
-    margin: -31px 0px 0px 27px;
+    margin: -50px 0px 0px 27px;
     gap: 19px;
   }
 }
@@ -48,7 +69,7 @@
   text-align: center;
   font-family: Orbitron;
 }
-@media (min-width: 993px) {
+@media (min-width: 1401px) {
   .Colection__button__box .button__style {
     font-size: 26.531px;
     font-style: normal;
@@ -56,6 +77,16 @@
     line-height: normal;
     width: 368.118px;
     height: 98.386px;
+  }
+}
+@media (max-width: 1390px) {
+  .Colection__button__box .button__style {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 160.118px;
+    height: 50.386px;
   }
 }
 @media (max-width: 992px) {
@@ -84,10 +115,16 @@
   }
 }
 
-@media (min-width: 993px) {
+@media (min-width: 1401px) {
   .Celection__photo {
     width: 435.551px;
     height: 814.723px;
+  }
+}
+@media (max-width: 1390px) {
+  .Celection__photo {
+    width: 250.551px;
+    height: 500.723px;
   }
 }
 @media (max-width: 992px) {
@@ -102,6 +139,7 @@
   color: #FFF;
   font-family: Orbitron;
   text-decoration: none;
+  align-items: center;
 }
 .View__title span {
   display: flex;
@@ -158,7 +196,7 @@
     top: 2px;
   }
 }
-@media (min-width: 993px) {
+@media (min-width: 1401px) {
   .View__title {
     display: flex;
     color: #FFF;
@@ -179,17 +217,12 @@
 @media (max-width: 992px) {
   .Colection__container {
     flex-direction: column;
+    margin: 48px 0px 0px 0px;
   }
 }
 @media (min-width: 993px) {
   .Colection__container {
     margin-left: -32px;
     gap: 130px;
-  }
-}
-
-@media (min-width: 993px) {
-  .View__title__box {
-    margin: -114px 0px 0px 732px;
   }
 }/*# sourceMappingURL=Colection.css.map */
