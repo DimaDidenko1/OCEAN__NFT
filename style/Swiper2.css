@@ -1,0 +1,250 @@
+.Swiper__box2 .swiper__info__panel {
+  white-space: nowrap;
+  padding: 249px 119px 49px 110px;
+}
+@media (max-width: 992px) {
+  .Swiper__box2 .Button__mobile {
+    width: 133.309px;
+    height: 34.212px;
+    margin: 5px 0px 0px 4px;
+  }
+  .Swiper__box2 .Title_on__page {
+    margin: 13px 0px 0px -84px;
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 18.06px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .Swiper__box2 .View__title {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .Swiper__box2 .button__style {
+    color: #FFF;
+    text-align: center;
+    font-family: Rajdhani;
+    font-size: 13.777px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 162.601px;
+    height: 35.209px;
+  }
+}
+@media (min-width: 1000px) {
+  .Swiper__box2 .button__style {
+    display: flex;
+    width: 14.6775rem;
+    height: 3.17819rem;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Rajdhani;
+    font-size: 1.24363rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+.Swiper__box2 .swiper-slide {
+  display: flex;
+}
+@media (max-width: 992px) {
+  .Swiper__box2 .swiper-slide {
+    margin: 0px -6px 0px 22px;
+  }
+  .Swiper__box2 .swiper-slide .button__box {
+    margin: 15px 0px 0px 71px;
+  }
+}
+@media (min-width: 1000px) {
+  .Swiper__box2 .swiper-slide:first-child .button__box {
+    margin: 0px 0px 0px 83px;
+  }
+  .Swiper__box2 .swiper-slide:nth-child(2) .button__box {
+    margin: 0px 0px 0px 73px;
+  }
+  .Swiper__box2 .swiper-slide:last-child .button__box {
+    margin: 0px 0px 0px 43px;
+  }
+}
+
+.card__box {
+  fill: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.02) 100%);
+  -webkit-backdrop-filter: blur(39.6001663208px);
+          backdrop-filter: blur(39.6001663208px);
+  border: 2px solid gray;
+  background: url("../img/swiper/unsplash_NTYYL9Eb9y8.png") no-repeat;
+}
+@media (max-width: 992px) {
+  .card__box {
+    background-size: 100% 142.367px;
+    width: 18.94394rem;
+    height: 24.44531rem;
+  }
+}
+@media (min-width: 1000px) {
+  .card__box {
+    width: 27.36013rem;
+    height: 35.30563rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .card__logo {
+    width: 7.03225rem;
+    height: 7.03225rem;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 69px;
+  }
+}
+@media (min-width: 1000px) {
+  .card__logo {
+    max-width: 10.15644rem;
+    max-height: 10.15644rem;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 6.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .name h2 {
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Rajdhani;
+    font-size: 16.839px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31.906px;
+  }
+}
+@media (min-width: 1000px) {
+  .name h2 {
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Rajdhani;
+    font-size: 1.52rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.88rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    margin: -8px 0px 0px 13px;
+  }
+  .login p {
+    color: #FFB1EE;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Rajdhani;
+    font-size: 13.959px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.906px;
+  }
+  .login img {
+    width: 10.968px;
+    height: 11.965px;
+  }
+}
+@media (min-width: 1000px) {
+  .login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    margin-top: -13px;
+  }
+  .login img {
+    width: 0.99rem;
+    height: 1.08rem;
+  }
+  .login p {
+    color: #FFB1EE;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Rajdhani;
+    font-size: 1.26rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.88rem;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .card__stat {
+    display: flex;
+    justify-content: center;
+    gap: 47px;
+    padding-top: 7px;
+  }
+  .card__stat h2 {
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Rajdhani;
+    font-size: 21.942px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 43.883px;
+  }
+  .card__stat p {
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Rajdhani;
+    font-size: 13.714px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 43.883px;
+    margin-top: -22px;
+  }
+}
+@media (min-width: 1000px) {
+  .card__stat {
+    display: flex;
+    justify-content: center;
+    gap: 67px;
+    padding-top: 5px;
+  }
+  .card__stat h2 {
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Rajdhani;
+    font-size: 1.98063rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.96119rem;
+  }
+  .card__stat p {
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Rajdhani;
+    font-size: 1.23788rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.96119rem;
+    opacity: 0.69;
+    margin-top: -31px;
+  }
+}/*# sourceMappingURL=Swiper2.css.map */

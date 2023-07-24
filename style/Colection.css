@@ -16,6 +16,11 @@
     margin: -445px 0px 0px 432px;
   }
 }
+@media (min-width: 1392px) {
+  .Colection__box .View__title__box {
+    margin: -113px 0px 0px 730px;
+  }
+}
 @media (max-width: 992px) {
   .Colection__box .Title_on__page {
     position: absolute;
