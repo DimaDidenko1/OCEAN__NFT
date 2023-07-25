@@ -1,3 +1,61 @@
+@media (min-width: 1000px) {
+  .Top__sellers .button__mobile {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .Top__sellers .button__style {
+    display: none;
+  }
+  .Top__sellers .button__mobile {
+    gap: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -28px 0px 0px -19px;
+    background: none;
+    width: 133.309px;
+    height: 34.212px;
+    -webkit-clip-path: polygon(16% 0, 80% 0%, 100% 0, 100% 72%, 85% 100%, 0 100%, 0% 80%, 0 29%);
+    clip-path: polygon(16% 0, 80% 0%, 100% 0, 100% 72%, 85% 100%, 0 100%, 0% 80%, 0 29%);
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    -o-border-image: linear-gradient(to right, #FFA6FA, #3C79D4);
+       border-image: linear-gradient(to right, #FFA6FA, #3C79D4);
+    border-image-slice: 1;
+  }
+  .Top__sellers .button__mobile span {
+    margin-left: 16px;
+    position: relative;
+    width: 25px;
+    height: 1px;
+    background-color: #FFF;
+  }
+  .Top__sellers .button__mobile span::before {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 1px;
+    top: -1px;
+    left: 23px;
+    background-color: #FFF;
+    transform: rotate(45deg);
+  }
+  .Top__sellers .button__mobile span::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 1px;
+    top: 1px;
+    left: 23px;
+    background-color: #FFF;
+    transform: rotate(-45deg);
+  }
+}
 .Top__sellers button {
   width: 234.84px;
   height: 50.851px;
@@ -28,6 +86,9 @@
   justify-content: center;
 }
 @media (max-width: 992px) {
+  .Sellers__panel {
+    padding: 143px 0px 0px 61px;
+  }
   .Sellers__panel h2 {
     color: #FFF;
     font-family: Orbitron;
@@ -37,6 +98,7 @@
     line-height: normal;
   }
   .Sellers__panel h2 span {
+    position: relative;
     color: #FF56F6;
     font-family: Orbitron;
     font-size: 19.231px;
@@ -47,24 +109,25 @@
   .Sellers__panel h2 span::before {
     content: "";
     position: absolute;
-    width: 10px;
+    width: 6px;
     height: 2px;
     background-color: #FF56F6;
     transform: rotate(45deg);
     left: 107%;
-    top: 20px;
+    top: 11px;
   }
   .Sellers__panel h2 span::after {
     content: "";
     position: absolute;
-    width: 10px;
+    width: 6px;
     height: 2px;
     background-color: #FF56F6;
     transform: rotate(-45deg);
-    left: 114%;
-    top: 20px;
+    left: 112%;
+    top: 11px;
   }
   .Sellers__panel p {
+    margin: 19px 0px 0px -38px;
     width: 325px;
     color: #FFF;
     text-align: center;
@@ -113,7 +176,7 @@
     top: 20px;
   }
   .Sellers__panel p {
-    padding: 25px 0px 0px 13px;
+    padding: 27px 0px 0px 13px;
     width: 506.3px;
     color: #FFF;
     text-align: center;
@@ -133,7 +196,8 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-row-gap: 25px;
+    padding: 26px 0px 0px 29px;
   }
   .Top__list :nth-child(5) {
     display: none;
@@ -184,6 +248,45 @@
     width: 316.798px;
     height: 89.747px;
   }
+  .Top__item:first-child .status {
+    margin: 9px 0px 0px 45px;
+  }
+  .Top__item:first-child .top__name {
+    margin: -1px 0px 0px 10px;
+  }
+  .Top__item:first-child .number__coins {
+    margin: -9px 0px 0px 10px;
+  }
+  .Top__item:nth-child(2) .status {
+    margin: 10px 0px 0px 16px;
+  }
+  .Top__item:nth-child(2) .top__name {
+    margin: -1px 0px 0px 10px;
+  }
+  .Top__item:nth-child(2) .number__coins {
+    margin: -9px 0px 0px 10px;
+  }
+  .Top__item:nth-child(3) .status {
+    margin: 10px 0px 0px 40px;
+  }
+  .Top__item:nth-child(3) .top__name {
+    margin: -1px 0px 0px 10px;
+  }
+  .Top__item:nth-child(3) .number__coins {
+    margin: -9px 0px 0px 10px;
+  }
+  .Top__item:nth-child(4) .status {
+    margin: 8px 0px 0px 37px;
+  }
+  .Top__item:nth-child(4) .top__name {
+    margin: -1px 0px 0px 10px;
+  }
+  .Top__item:nth-child(4) .number__coins {
+    margin: -9px 0px 0px 10px;
+  }
+  .Top__item:nth-child(4) .Top__pos {
+    margin: 0px 5px 0px -6px;
+  }
 }
 @media (min-width: 1000px) {
   .Top__item {
@@ -225,6 +328,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: 31.975px;
+    padding: 0px 12px 0px 20px;
   }
 }
 @media (min-width: 1000px) {
@@ -279,6 +383,9 @@
   }
 }
 
+.top__name {
+  white-space: nowrap;
+}
 @media (max-width: 992px) {
   .top__name {
     color: #FFF;
@@ -343,6 +450,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0px 0px 0px 0px;
     width: 72.919px;
     height: 25.642px;
   }
@@ -377,4 +485,13 @@
     font-weight: 500;
     line-height: 47.139px;
   }
+}
+
+.minus {
+  border: #EB1414 solid 1px;
+  border-radius: 17.528px;
+  background: linear-gradient(180deg, rgba(235, 20, 20, 0.15) 0%, rgba(235, 20, 20, 0.1) 100%);
+}
+.minus h2 {
+  color: #F00;
 }/*# sourceMappingURL=Top.css.map */

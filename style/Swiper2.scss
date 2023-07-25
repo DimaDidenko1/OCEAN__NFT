@@ -1,9 +1,17 @@
 .Swiper__box2 {
     // margin-top: 5.1rem;
-    .swiper__info__panel {
-        white-space: nowrap;
-        padding: 547px 119px 33px 110px;
-     }
+    @media (min-width:993px) {
+        .swiper__info__panel {
+            white-space: nowrap;
+            padding: 250px 120px 47px 110px;
+         }
+    }
+    @media (max-width:992px) {
+        .swiper__info__panel {
+            white-space: nowrap;
+            padding: 545px 120px 34px 110px;
+         }
+    }
      @media (max-width:992px) {
         .Button__mobile {
             width: 133.309px;
