@@ -9,6 +9,12 @@
     padding: 163px 0px 0px 0px;
   }
 }
+@media (max-width: 992px) {
+  footer {
+    padding: 107px 0px 0px 0px;
+  }
+}
+
 .up__footer__box {
   padding-top: 85px;
   padding-bottom: 82px;
@@ -16,10 +22,11 @@
   border-top: 1.1px solid gray;
 }
 
-.Ocean__NFT__footer {
-  margin: 11px 0px 0px 151px;
+@media (min-width: 993px) {
+  .Ocean__NFT__footer {
+    margin: 11px 0px 0px 151px;
+  }
 }
-
 @media (min-width: 1000px) {
   .logo__footer {
     margin: 2px 0px 0px -69px;
@@ -116,6 +123,7 @@
   background: none;
   border: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 34px 0px -33px 6px;
 }
 .accordion-item:last-child {
   border: none;
@@ -135,6 +143,10 @@
   line-height: 30.953px;
 }
 .accordion-button::after {
+  display: flex;
+  justify-content: end;
+  margin-right: 26px;
+  margin-top: 7px;
   background-image: url("../img/Vector.svg");
 }
 
@@ -145,6 +157,18 @@
 .accordion-body {
   display: flex;
   flex-direction: column;
+}
+.accordion-body a {
+  padding-top: 15px;
+  text-decoration: none;
+  display: flex;
+  color: var(--text-gray-300, #D9DBE1);
+  font-feature-settings: "salt" on, "liga" off;
+  font-family: Inter;
+  font-size: 15.476px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.531px;
 }
 
 .collapsed {
@@ -199,7 +223,45 @@
 }
 
 @media (max-width: 991.98px) {
+  .endLine {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 0px;
+    border: none;
+  }
+  .endLine div:last-child {
+    margin: -24px 0px 0px 12px;
+  }
+  .endLine p {
+    margin: 39px 0px 100px 37px;
+    color: var(--text-gray-300, #D9DBE1);
+    font-feature-settings: "salt" on, "liga" off;
+    font-family: Inter;
+    font-size: 15.476px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.531px;
+  }
+  .endLine a {
+    margin: 0px 0px 0px 29px;
+    text-decoration: none;
+    color: var(--text-gray-300, #D9DBE1);
+    font-feature-settings: "salt" on, "liga" off;
+    font-family: Inter;
+    font-size: 15.476px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.531px;
+  }
+  .endLine a:last-child {
+    display: none;
+  }
+  .soc_media {
+    padding: 24px 0px 0px 25px;
+    gap: 17px;
+  }
   .FooterDESC {
+    padding: 31px 0px 0px 27px;
     color: var(--text-gray-300, #D9DBE1);
     font-feature-settings: "salt" on, "liga" off;
     font-family: Inter;
@@ -210,8 +272,10 @@
   }
   .logo__footer {
     display: flex;
+    margin: -55px 0px 0px 26px;
   }
   .logo__footer h2 {
+    padding-left: 5px;
     color: #FFF;
     font-family: Orbitron;
     font-size: 19.898px;

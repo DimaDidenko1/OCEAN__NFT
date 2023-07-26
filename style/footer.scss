@@ -17,9 +17,15 @@
     }
     footer{
         padding: 163px 0px 0px 0px;
+        
+        
     }
 }
-
+footer{
+@media (max-width:992px) {
+    padding: 107px 0px 0px 0px;
+}
+}
 
 // `xl` applies to large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {  }
@@ -36,7 +42,12 @@
     
  }
 .Ocean__NFT__footer {
-    margin: 11px 0px 0px 151px;
+    @media (min-width:993px) {
+        margin: 11px 0px 0px 151px;
+    }
+    @media (max-width:992px) {
+        
+    }
 }
 .logo__footer {
 
@@ -125,10 +136,12 @@
 .AcordBOX { 
     
 }
+
 .NewNews { }
 .AcordeonMobile { }
 .accordion {
     width: 100%;
+    
 }
 .accordion-item {
     background: none;
@@ -137,12 +150,15 @@
     &:last-child{
         border: none;
     }
+    margin: 34px 0px -33px 6px;
 }
 .accordion-header {
     background: none;
     
  }
 .accordion-button {
+    
+   
     color: var(--default-white, #FFF);
     font-feature-settings: 'salt' on, 'liga' off;
     font-family: Inter;
@@ -150,7 +166,12 @@
     font-style: normal;
     font-weight: 500;
     line-height: 30.953px;
+    
     &::after{
+        display: flex;
+        justify-content: end;
+        margin-right: 26px;
+        margin-top: 7px;
         background-image: url("../img/Vector.svg");
     }
 }
@@ -160,6 +181,18 @@
 .accordion-body {
     display: flex;
     flex-direction: column;
+    a{
+        padding-top: 15px;
+        text-decoration: none;
+        display: flex;
+        color: var(--text-gray-300, #D9DBE1);
+        font-feature-settings: 'salt' on, 'liga' off;
+        font-family: Inter;
+        font-size: 15.476px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26.531px;
+    }
  }
 .collapsed {
     background: none;
@@ -218,7 +251,47 @@
 
 
 @media (max-width: 991.98px) {
+    .endLine{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 0px;
+        border: none;
+        div:last-child{
+            margin: -24px 0px 0px 12px;
+            
+        }
+        p{
+            
+            margin: 39px 0px 100px 37px;
+            color: var(--text-gray-300, #D9DBE1);
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: Inter;
+            font-size: 15.476px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26.531px;
+        }
+        a{
+            margin: 0px 0px 0px 29px;
+            text-decoration: none;
+            color: var(--text-gray-300, #D9DBE1);
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: Inter;
+            font-size: 15.476px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26.531px;
+        }
+        a:last-child{
+            display: none;
+        }
+    }
+    .soc_media{
+        padding: 24px 0px 0px 25px;
+        gap: 17px;
+    }
     .FooterDESC{
+        padding: 31px 0px 0px 27px;
         color: var(--text-gray-300, #D9DBE1);
         font-feature-settings: 'salt' on, 'liga' off;
         font-family: Inter;
@@ -229,7 +302,9 @@
     }
     .logo__footer {
         display: flex;
+        margin: -55px 0px 0px 26px;
         h2{
+            padding-left: 5px;
             color: #FFF;
             font-family: Orbitron;
             font-size: 19.898px;
@@ -240,6 +315,7 @@
         img{
             width: 16.582px;
             height: 26.811px;
+            
         }
     }
     .up__footer__box{
