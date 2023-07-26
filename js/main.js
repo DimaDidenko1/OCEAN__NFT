@@ -3,8 +3,6 @@ let content = document.querySelector('.content');
 let isBurgerMenuOpen = false;
 
 
-
-
 let activeButton = null;
 
 function changeIMG_btn(button) {
@@ -35,7 +33,6 @@ window.addEventListener('load', function() {
 
 
 const swiper = new Swiper('.swiper', {
-  // Optional parameters
   
   loop: true,
   freemode: true,
@@ -50,15 +47,10 @@ const swiper = new Swiper('.swiper', {
       
     },
     1600: {
-      slidesPerView: 3, // Отображаем по 3 слайда при ширине 1400 пикселей
+      slidesPerView: 3, 
       
     },
   },
-  
-  
-
-  
-  // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',

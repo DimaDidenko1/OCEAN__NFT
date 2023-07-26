@@ -1,18 +1,190 @@
-.Ocean__NFT__footer { }
-.up__footer__box{
-    display: flex;
-    flex-direction: row;
+// `xs` returns only a ruleset and no media query
+// ... { ... }
+
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {  }
+
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {  }
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (min-width:992px) {
+    .AcordeonMobile{
+        display: none;
+    }
+    .AcordeonPC{
+        display: flex;
+    }
+    footer{
+        padding: 163px 0px 0px 0px;
+    }
 }
-.logo__footer { }
-.soc_media { }
-.accordion {}
-.accordion-item { }
-.accordion-header { }
-.accordion-button {
+@media (max-width: 991.98px) {
+    .AcordeonMobile{
+        display: flex;
+    }
+    .AcordeonPC{
+        display: none;
+    }
+  }
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {  }
+
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+
+  }
+.up__footer__box {
+    padding-top: 85px;
+    padding-bottom: 82px;
+    display: flex;
+    border-top: 1.1px solid gray;
     
  }
+.Ocean__NFT__footer {
+    margin: 11px 0px 0px 151px;
+}
+.logo__footer {
+    @media (min-width:1000px) {
+        margin: 2px 0px 0px -69px;
+        display: flex;
+    align-items: center;
+    gap: 5px;
+    h2{
+        color: #FFF;
+        font-family: Orbitron;
+        font-size: 19.898px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    img{
+        width: 16.582px;
+        height: 26.811px;
+    }
+    }
+
+ }
+ .FooterDESC{
+    @media (min-width:1000px) {
+        margin: 33px 0px 0px -68px;
+    color: var(--text-gray-300, #D9DBE1);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 15.476px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.531px;
+    width: 281.892px;
+    }
+ }
+.soc_media {
+    display: flex;
+    @media (min-width:1000px) {
+        margin: 25px 0px 0px -69px;
+        gap: 18px;
+        img{
+            width: 26.531px;
+            height: 26.531px;
+        }
+    }
+ }
+.AcordeonPC {
+    display: flex;
+    margin: 10px 0px 0px 89px;
+    gap: 33.16px;
+    span{
+        padding-left: 10px;
+        color: var(--brand-turquoise, #2EC5CE);
+        font-family: MuseoModerno;
+        font-size: 22.109px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26.531px;
+    }
+    h2{
+        width: 176.873px;
+        color: var(--default-white, #FFF);
+        font-feature-settings: 'salt' on, 'liga' off;
+        font-family: Inter;
+        font-size: 19.898px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30.953px;
+        padding-bottom: 1px;
+    }
+    a{
+        padding-top: 15px;
+        width: 176.873px;
+        text-decoration: none;
+        display: flex;
+        color: var(--text-gray-300, #D9DBE1);
+        font-feature-settings: 'salt' on, 'liga' off;
+        font-family: Inter;
+        font-size: 15.476px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26.531px;
+    }
+ }
+.AcordBOX { }
+.NewNews { }
+.AcordeonMobile { }
+.accordion { }
+.accordion-item { }
+.accordion-header { }
+.accordion-button { }
 .accordion-collapse { }
 .collapse { }
+.show { }
 .accordion-body { }
-.new__item { }
-.endLine { }
+.collapsed { }
+.endLine {
+    display: flex;
+    border-top: 1.1px solid gray;
+    
+   
+    @media (min-width:993px) {
+        padding: 28px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        div:last-child{
+            margin: -2px 0px 0px 687px;
+        }
+        a:nth-child(2){
+            
+            border-left: 1px solid gray;
+            border-right: 1px solid gray;
+        }
+        p{
+            color: var(--text-gray-300, #D9DBE1);
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: Inter;
+            font-size: 15.476px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26.531px;
+            margin: 0px 0px 0px 80px;
+        }
+        a{  
+            text-decoration: none;
+            color: var(--text-gray-300, #D9DBE1);
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: Inter;
+            font-size: 15.476px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26.531px;
+            &:first-child{
+                padding: 0px 7px 0px 0px;
+            }
+            &:nth-child(2){
+                padding: 0px 15px 0px 12px;
+            }
+            &:last-child{
+                padding: 0px 0px 0px 5px;
+            }
+            }
+        
+    }
+}
