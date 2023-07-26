@@ -8,7 +8,7 @@
 @media (max-width: 767.98px) {  }
 
 // `lg` applies to medium devices (tablets, less than 992px)
-@media (min-width:992px) {
+@media (min-width:1000px) {
     .AcordeonMobile{
         display: none;
     }
@@ -19,14 +19,7 @@
         padding: 163px 0px 0px 0px;
     }
 }
-@media (max-width: 991.98px) {
-    .AcordeonMobile{
-        display: flex;
-    }
-    .AcordeonPC{
-        display: none;
-    }
-  }
+
 
 // `xl` applies to large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {  }
@@ -46,6 +39,7 @@
     margin: 11px 0px 0px 151px;
 }
 .logo__footer {
+
     @media (min-width:1000px) {
         margin: 2px 0px 0px -69px;
         display: flex;
@@ -128,18 +122,51 @@
         line-height: 26.531px;
     }
  }
-.AcordBOX { }
+.AcordBOX { 
+    
+}
 .NewNews { }
 .AcordeonMobile { }
-.accordion { }
-.accordion-item { }
-.accordion-header { }
-.accordion-button { }
-.accordion-collapse { }
-.collapse { }
-.show { }
-.accordion-body { }
-.collapsed { }
+.accordion {
+    width: 100%;
+}
+.accordion-item {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba($color: #FFFFFF, $alpha: 0.2);
+    &:last-child{
+        border: none;
+    }
+}
+.accordion-header {
+    background: none;
+    
+ }
+.accordion-button {
+    color: var(--default-white, #FFF);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 19.898px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30.953px;
+    &::after{
+        background-image: url("../img/Vector.svg");
+    }
+}
+.accordion-collapse {background: none; }
+.collapse {}
+.show {}
+.accordion-body {
+    display: flex;
+    flex-direction: column;
+ }
+.collapsed {
+    background: none;
+    
+    
+    
+ }
 .endLine {
     display: flex;
     border-top: 1.1px solid gray;
@@ -188,3 +215,42 @@
         
     }
 }
+
+
+@media (max-width: 991.98px) {
+    .FooterDESC{
+        color: var(--text-gray-300, #D9DBE1);
+        font-feature-settings: 'salt' on, 'liga' off;
+        font-family: Inter;
+        font-size: 15.476px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26.531px;
+    }
+    .logo__footer {
+        display: flex;
+        h2{
+            color: #FFF;
+            font-family: Orbitron;
+            font-size: 19.898px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        img{
+            width: 16.582px;
+            height: 26.811px;
+        }
+    }
+    .up__footer__box{
+        display: flex;
+        flex-direction: column;
+    }
+    .AcordeonMobile{
+        display: flex;
+        width: 100%;
+    }
+    .AcordeonPC{
+        display: none;
+    }
+  }
