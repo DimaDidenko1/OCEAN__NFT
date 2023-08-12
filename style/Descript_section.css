@@ -370,11 +370,9 @@ li {
   right: -157px;
   width: 336px;
   height: 181px;
-  background: transparent;
-  border-radius: 15px;
-  fill: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.02) 100%);
-  -webkit-backdrop-filter: blur(30.4px);
-          backdrop-filter: blur(30.4px);
+  background: url("../img/Vector 684.png");
+  -webkit-clip-path: polygon(12% 0, 75% 0%, 100% 0, 100% 100%, 0 100%, 0 25%);
+          clip-path: polygon(12% 0, 75% 0%, 100% 0, 100% 100%, 0 100%, 0 25%);
   overflow: hidden;
 }
 @media (max-width: 991.98px) {

@@ -406,4 +406,24 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+.Button__mobile button::before {
+  content: "";
+  position: absolute;
+  transform: rotate(153deg);
+  background: linear-gradient(#FFA6FA, #3C79D4);
+  width: 19px;
+  height: 2px;
+  top: 3px;
+  left: -1px;
+}
+.Button__mobile button::after {
+  content: "";
+  position: absolute;
+  transform: rotate(153deg);
+  background: linear-gradient(#FFA6FA, #3C79D4);
+  width: 19px;
+  height: 2px;
+  top: 27px;
+  left: 117px;
 }/*# sourceMappingURL=Swiper__box.css.map */

@@ -44,6 +44,16 @@
     width: 162.601px;
     height: 35.209px;
   }
+  .Swiper__box2 .button__style::after {
+    content: "";
+    position: absolute;
+    transform: rotate(153deg);
+    background: linear-gradient(#FFA6FA, #3C79D4);
+    width: 19px;
+    height: 2px;
+    top: 27px;
+    left: 108px;
+  }
 }
 @media (min-width: 1000px) {
   .Swiper__box2 .button__style {

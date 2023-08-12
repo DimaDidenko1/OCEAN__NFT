@@ -5,6 +5,29 @@
     @media (max-width:992px) {
         .button__style{display: none;}
         .button__mobile{
+            position: relative;
+            
+            &::before{
+                content: '';
+                position: absolute;
+                transform: rotate(153deg);
+                background: linear-gradient(#FFA6FA, #3C79D4);
+                width: 19px;
+                height: 2px;
+                top: 3px;
+                left: -1px;
+              }
+              &::after{
+                content: '';
+                position: absolute;
+                transform: rotate(153deg);
+                background: linear-gradient(#FFA6FA, #3C79D4);
+                width: 19px;
+                height: 2px;
+                top: 26px;
+                left: 113px;
+              }
+              
             gap: 0px;
             display: flex;
             justify-content: center;

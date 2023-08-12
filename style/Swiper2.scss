@@ -34,6 +34,7 @@
      }
      .button__style {
         @media (max-width:992px) {
+            
             color: #FFF;
             text-align: center;
             font-family: Rajdhani;
@@ -46,6 +47,17 @@
             justify-content: center;
             width: 162.601px;
             height: 35.209px;
+            &::after{
+                content: '';
+                position: absolute;
+                transform: rotate(153deg);
+                background: linear-gradient(#FFA6FA, #3C79D4);
+                width: 19px;
+                height: 2px;
+                top: 27px;
+                left: 108px;
+               
+            }
         }
         @media (min-width:1000px) {
             display: flex;

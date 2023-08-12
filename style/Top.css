@@ -8,6 +8,7 @@
     display: none;
   }
   .Top__sellers .button__mobile {
+    position: relative;
     gap: 0px;
     display: flex;
     justify-content: center;
@@ -27,6 +28,26 @@
     -o-border-image: linear-gradient(to right, #FFA6FA, #3C79D4);
        border-image: linear-gradient(to right, #FFA6FA, #3C79D4);
     border-image-slice: 1;
+  }
+  .Top__sellers .button__mobile::before {
+    content: "";
+    position: absolute;
+    transform: rotate(153deg);
+    background: linear-gradient(#FFA6FA, #3C79D4);
+    width: 19px;
+    height: 2px;
+    top: 3px;
+    left: -1px;
+  }
+  .Top__sellers .button__mobile::after {
+    content: "";
+    position: absolute;
+    transform: rotate(153deg);
+    background: linear-gradient(#FFA6FA, #3C79D4);
+    width: 19px;
+    height: 2px;
+    top: 26px;
+    left: 113px;
   }
   .Top__sellers .button__mobile span {
     margin-left: 16px;
